@@ -1,0 +1,27 @@
+body {
+font-family:'Times New Roman';
+line-height: 1.6;
+margin: 0;
+padding: 0;
+}
+
+header {
+background: #47698d;
+color: #fff;
+padding: 10px 0;
+text-align: center;
+}
+.contact_form {
+  background-color: #f4f4f4;
+  padding: 50px;
+  border-radius: 5px;
+  max-width: 1000px;
+  margin: center;
+}
+div {
+  margin-bottom: 30px;
+  background-color: #e2e2e2;
+  padding: 15px;
+  border-radius: 5px;
+  text-decoration: none;
+}

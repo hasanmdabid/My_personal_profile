@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="stylesheet" href="../css/contact_form.css" />
+</head>
+<body>
+    <header>
+        Contact Form
+    </header> 
+    <main>
+        <section class="contact_form">
+            <form>
+                <div id = "name_fields">
+                    <label for="first_name">First Name:</label><br>
+                    <input type="text" id="first_name" name="first_name" placeholder="First name" required><br><br>
+                    <label for="last_name">Last Name:</label><br>
+                    <input type="text" id="last_name" name="last_name" placeholder="Last name" required><br><br>
+                </div>
+                <div id="date_of_birth">
+                    <label for="DOB" >Date of Birth:</label><br>
+                    <input type="date" id="DOB" name="DOB" required><br><br>
+                </div>
+                <div id="gender">
+                    <label for="gender">Gender:</label><br>
+                    <input type="radio" id="male" name="gender_choice" value="male" required>
+                    <label for="male">male</label>
+                    <input type="radio" id="female" name="gender_choice" value="female" required>
+                    <label for="female">Female</label>
+
+                    <input type="radio" id="other" name="gender_choice" value="other" required>
+                    <label for="other">Other</label><br><br>              
+                </div>
+
+                <div id="contact_details">
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" placeholder="Email" required><br><br>
+                    <label for="subject">Subject:</label><br>
+                    <input type="text" id="subject" name="subject" placeholder="Subject" required><br><br>
+
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="10" cols="50" placeholder="Your message here" required></textarea><br><br>
+                    
+                    <label for ="agree">I agree to the terms and conditions:</label> 
+                    <input type="checkbox" id="agree" name="agree" required><br><br>    
+
+                    <input type="submit" value="Submit">
+                </div>
+
+            </form> 
+        </section>
+    </main>
+</body>
+
+</html>
